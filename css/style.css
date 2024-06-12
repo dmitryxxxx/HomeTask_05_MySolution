@@ -1,0 +1,249 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    height: 2100px;
+    margin: 0 auto;
+}
+.page__menu {
+    height: 685px;
+    background-image: url(../img/red_background.png);
+    margin: 0 auto;
+}
+.page__menu__contain {
+    width: 1150px;
+    margin: 0 auto;
+}
+.menu__top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    align-items: center;
+    padding: 40px 0px;
+}
+.menu__list {
+    display: flex;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+.menu__list li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+}
+.menu__list li a:hover {
+    background-color: #130e27;
+    border-radius: 6px;
+}
+.menu__title {
+    width: 600px;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 80px;
+    color: #130e27;
+    margin: 0;
+    padding: 0;
+    padding-left: 70px;
+    padding-top: 85px;
+    line-height: 0.9;
+}
+.menu__title__sub {
+    color: #fff;
+}
+.text {
+    font-size: 20px;
+    font-family: "PTSerif";
+    color: rgb(255, 255, 255);
+}
+.menu__text {
+    width: 530px;
+    padding-left: 70px;
+    padding-top: 20px;
+    line-height: 1.4;
+}
+.page_our__services {
+    width: 1200px;
+    height: 480px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+}
+.page_our__services__contain {
+    width: 1050px;
+    height: 480px;
+    margin: 0 auto;
+}
+.our__services__title {
+    padding-left: 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #130e27;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.our__service__title__sub {
+    color: #c62314;   
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    width: 200px;
+    font-family: serif;
+    text-align: center;
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 50px;
+}
+.picture {
+    margin: 0;
+    height: 170px;
+}
+.icon__text {
+    margin: 20px 0 0 0;
+}
+.page__our__story {
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+}
+.page__our__story__contain {
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #130e27;
+    justify-content: space-between;
+    align-items: center;
+}
+.page__our__story__text {
+    width: 650px;
+    padding-left: 70px;
+    line-height: 1.4;
+}
+.page__our__story__button {
+    width: 270px;
+    height: 65px;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #efefef;
+    background-color: #c62314;
+    border-radius: 6px;
+    text-transform: uppercase;
+    margin-right: 70px;
+}
+.page__pricing {
+    width: 1200px;
+    height: 615px;
+    background-color: #efefef;
+    padding: 20px;
+}
+.page__pricing__contain {
+    width: 1050px;
+    height: 615px;
+    margin: 0 auto;
+}
+.pricing__title {
+    padding-left: 20px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #130e27;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+.packet__items {
+    display: flex;
+    justify-content: space-between;
+}
+.packet__text {
+    font-family: serif;
+    text-align: center;
+    font-size: 22px;
+    color: #262626;
+}
+.packet__name {
+    font-family: Montserrat;
+    font-weight: bold;
+    text-align: center;
+    font-size: 45px;
+    color: #c62314;
+    margin: 0;
+    padding: 0;
+}
+.packet__item {
+    width: 320px;
+    height: 390px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.packet__list {
+    font-family: serif;
+    text-align: center;
+    font-size: 22px;
+    color: #161616;
+}
+.packet__list div {
+    width: 250px;
+    margin: 5px 0;
+    padding: 0;
+}
+.packet__button1 {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #130e27;
+    color: #fff;
+    margin: 5px 0 0;
+}
+.packet__button2 {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #c62314;
+    color: #fff;
+    margin: 5px 0 0;
+}
+.picture {
+    margin: 0;
+    height: 170px;
+}
+.icon__text {
+    margin: 20px 0 0 0;
+}
+.page__bottom {
+    width: 1200px;
+}
+.page__bottom__contain {
+    height: 185px;
+    display: flex;
+    background-color: #130e27;
+    justify-content: space-between;
+    align-items: center;
+}
+.page__bottom__text {
+    width: 650px;
+    padding-left: 70px;
+}
+.page__bottom__text__sub {
+    color: #c62314;
+}
+.red__logo {
+    margin-right: 70px;
+}
